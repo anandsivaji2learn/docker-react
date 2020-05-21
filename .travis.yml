@@ -3,7 +3,7 @@ services:
     - docker
 
 before_install:
-    - docker build anandsivaji/docker-react -f Dockerfile.dev .
+    - docker build -t anandsivaji/docker-react -f Dockerfile.dev .
     
 script:
     - docker run anandsivaji/docker-react npm run test -- --coverage
