@@ -2,6 +2,7 @@ sudo: required
 services:
     - docker
 
+# This is the step to mention the command to create the docker image
 before_install:
     - docker build -t anandsivaji/docker-react -f Dockerfile.dev .
     
