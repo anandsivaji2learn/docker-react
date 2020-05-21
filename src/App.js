@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React through docker by compose.
+          Learn React with docker. This is the CI sample using Travis!!!
         </a>
       </header>
     </div>
